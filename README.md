@@ -13,14 +13,13 @@ A production-grade React application for a B2B SaaS cybersecurity platform, buil
 
 ##  Setup & Installation
 
-```bash
 # Install dependencies
 npm install
 
 # Start dev server
 npm run dev
 
-## 🎨 Design Decisions
+## Design Decisions
 
 ### Theme System
 - CSS custom properties for instant theme switching
@@ -43,12 +42,12 @@ All data is hardcoded in `src/data/mockData.js` — no backend required.
 - **Screen 1**: Split-layout login with form validation, social login, password toggle
 - **Screen 2**: Full dashboard with severity stats, searchable/filterable scan table, pagination
 - **Screen 3**: Active scan with circular progress, step tracker, live console (animated logs), finding log
-- **Dark/Light mode**: Global toggle in sidebar, applied instantly
+- **Dark/Light** mode: Global toggle in sidebar, applied instantly
 - **Navigation**: Login → Dashboard → Scan Detail, breadcrumb navigation
 - **Interactivity**: Toast notifications, New Scan modal, Export/Stop buttons, tab switching
 - **Responsive**: Mobile sidebar drawer, responsive grid layouts
 
-##  Known Limitations
+## Known Limitations
 
 - No real backend — all data is mocked
 - Social login (Apple/Google/Meta) redirects to dashboard without real OAuth
