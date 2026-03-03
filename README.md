@@ -2,7 +2,7 @@
 
 A production-grade React application for a B2B SaaS cybersecurity platform, built as a frontend design challenge for Fenrir Security.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React 18** with functional components and hooks
 - **React Router v6** for client-side routing
@@ -11,7 +11,7 @@ A production-grade React application for a B2B SaaS cybersecurity platform, buil
 - **DM Sans** (UI font) + **JetBrains Mono** (console/code font)
 - Pure CSS with custom properties (no Tailwind dependency needed)
 
-## 📦 Setup & Installation
+##  Setup & Installation
 
 ```bash
 # Install dependencies
@@ -29,31 +29,7 @@ npm run preview
 
 Open [http://localhost:5173](http://localhost:5173) to view the app.
 
-## 🗂 Project Structure
 
-```
-src/
-├── components/
-│   ├── AppLayout.jsx      # Main layout wrapper with sidebar
-│   ├── AppLayout.css
-│   ├── Sidebar.jsx        # Navigation sidebar with theme toggle
-│   ├── Sidebar.css
-│   └── NewScanModal.jsx   # New scan creation modal
-├── context/
-│   ├── ThemeContext.jsx    # Global dark/light theme state
-│   └── ToastContext.jsx    # Toast notification system
-├── data/
-│   └── mockData.js        # All hardcoded mock data
-├── pages/
-│   ├── Login.jsx          # Screen 1: Sign-up / Login page
-│   ├── Login.css
-│   ├── Dashboard.jsx      # Screen 2: Scan list dashboard
-│   ├── Dashboard.css
-│   ├── ScanDetail.jsx     # Screen 3: Active scan console
-│   └── ScanDetail.css
-├── App.jsx                # Router and top-level providers
-├── main.jsx               # React entry point
-└── index.css              # Global styles and CSS variables
 ```
 
 ## 🎨 Design Decisions
@@ -74,7 +50,7 @@ src/
 ### Mock Data
 All data is hardcoded in `src/data/mockData.js` — no backend required.
 
-## ✅ Features Implemented
+##  Features Implemented
 
 - **Screen 1**: Split-layout login with form validation, social login, password toggle
 - **Screen 2**: Full dashboard with severity stats, searchable/filterable scan table, pagination
@@ -84,7 +60,7 @@ All data is hardcoded in `src/data/mockData.js` — no backend required.
 - **Interactivity**: Toast notifications, New Scan modal, Export/Stop buttons, tab switching
 - **Responsive**: Mobile sidebar drawer, responsive grid layouts
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 - No real backend — all data is mocked
 - Social login (Apple/Google/Meta) redirects to dashboard without real OAuth
