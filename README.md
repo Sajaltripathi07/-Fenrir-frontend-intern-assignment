@@ -20,18 +20,6 @@ npm install
 # Start dev server
 npm run dev
 
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-Open [http://localhost:5173](http://localhost:5173) to view the app.
-
-
-```
-
 ## 🎨 Design Decisions
 
 ### Theme System
